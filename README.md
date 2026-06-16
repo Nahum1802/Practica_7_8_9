@@ -23,12 +23,15 @@ El proyecto está diseñado para ejecutarse en **PostgreSQL**. Sigue estos pasos
    cd Practica_7_8_9
 
 2. **Acceder a PostgreSQL:**
+   ```bash
    psql -U tu_usuario
 
 3. **Crear una base de datos:**
+   ```bash
    CREATE DATABASE refaccionaria_leo;
     \c refaccionaria_leo;
 
-4. **Ejecutar el Script:**
+5. **Ejecutar el Script:**
+   ```bash
    \i schema.sql
 
